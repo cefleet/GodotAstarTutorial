@@ -166,4 +166,3 @@ func _ready():
 	get_node("End").connect("valueChanged",self,'makePath')
 	get_node("AddObstacle/AddObstacleButton").connect("pressed",self,'addObstacle')
 	
-	
